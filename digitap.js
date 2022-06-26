@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Digitap = require('../model/digitap');
+const Digitap = require('../model/digitapSchema');
 const mongoose = require('mongoose');
 
 router.get('/',(req,res,next)=>{
